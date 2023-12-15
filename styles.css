@@ -1,0 +1,44 @@
+  .menu {
+    float: left;
+    font-family:sans-serif;
+    color: white;
+    width: 20%;
+  }
+  .main {
+    width: 70%;
+    padding: 0 5%;
+    float: left;
+  }
+  @media only screen and (max-width: 620px) {
+    .menu, .main {
+    width: 100%; }
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #1a001a;
+    overflow: auto;
+    font-family:sans-serif;
+  }
+  li a {
+    display: block;
+    color: #ebb1eb;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+      color: #ffff;
+      margin:2px;
+  }
+
+  p {
+    font-family:sans-serif;
+  }
+
+  h1 {
+    font-family:sans-serif;
+  }
+
